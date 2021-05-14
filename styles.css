@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+   display: flexbox;
+  background-image: url("https://www.atlantaautos.com/imagetag/7011/main/l/Used-2018-Dodge-Charger-R/T-392-Scat-Pack.jpg");
+  }
+  .grid-container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 250px 150px 250px;
+    grid-template-rows: repeat(3, 220px) 80px 200px;
+display: flexbox;  
+justify-content: space-between;
+}
+ section:nth-of-type(1) {
+    background-color:white;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 8px;
+    font: 100%;
+  }
+  section:nth-of-type(1) h1,
+  section:nth-of-type(1) p {
+    border: 1px sol;
+ }
+  section:nth-of-type(1) h1 {
+    margin-bottom: 8px;
+  }
+  section:nth-of-type(2) {
+    background-color:white;
+    grid-row: 2/3;
+    text-align: center;
+     }
+  section:nth-of-type(3) {
+    background-color:white;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    text-align: center;
+    padding-right: 20px;
+  }
+  
+  
+ 
+  
+ 
+
+  
+
+
+  
+ 
+
+ 
